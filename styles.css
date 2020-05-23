@@ -1,0 +1,119 @@
+/*Colors
+Text  - Sonic Silver 737373
+Nav -  Green 00B277
+Headers - Sea Green 00C080
+Background - 1C1E1F
+*/
+
+
+/*Global Syles
+-------------------------------*/
+body {
+    padding: 50px;
+    background-color: black;
+    color: #737373;
+    margin: 40px;
+}
+
+a:hover{
+    color: #00C080;
+}
+
+h2{
+    color: #00C080;
+}
+
+h1{
+    color: white
+}
+
+/*Nav
+-------------------------------*/
+nav li{
+    list-style-type: none;    
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    background: #1C1E1F;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    padding: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+    
+/*My Info
+-------------------------------*/
+.image_info{
+    display: inline;
+    z-index: 2;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left:158px;   
+    top:30px;
+    height:420px;
+    background: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    height: 420px;
+}
+
+.image_info h1 {
+color: indianred;
+    font-size: 4em;
+    position: relative;
+    top:-190px;
+    left: 60px;
+    z-index: 4;
+}
+
+#image_social_media_links{
+    position: relative;
+    top:-170px;
+    left: 60px;
+    z-index: 4;
+    color: deeppink;
+}
+
+
+/*Education
+-------------------------------*/
+
+
+/*Work
+-------------------------------*/
+
+/*Skils
+-------------------------------*/
+.myProgress{
+  width: 50%;
+  height: 2px;
+  background-color: #737373;
+}
+
+#myBar1,#myBar2,#myBar3,#myBar4,#myBar5 {
+  width: 80%;
+  height: 2px;
+  background-color: #00C080;
+  color: white;
+}
+
+/*Contact
+-------------------------------*/
+footer{
+    color: #737373;
+}
+
+
